@@ -45,7 +45,6 @@ To delete the CloudFormation stack and associated resources, run:
 
 ```bash
 aws cloudformation delete-stack --stack-name MyNginxStack
-aws cloudformation wait stack-delete-complete --stack-name MyNginxStack
 ```
 
 ### License
